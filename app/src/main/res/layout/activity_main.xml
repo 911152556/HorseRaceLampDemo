@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhuwb.horseracelampdemo.MainActivity">
+
+    <com.zhuwb.uikit.view.ScrollingText
+        android:id="@+id/scrollingText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"
+        app:orientation="vertical"
+        app:scrollingSpeed="5"
+        app:text="@string/vertiaclMessage"
+        app:textColor="#CCCCCC"
+        app:textSize="8dp"/>
+
+    <com.zhuwb.uikit.view.ScrollingText
+        android:id="@+id/scrollingText2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#fff"
+        app:orientation="horizontal"
+        app:text="@string/text"
+        app:textColor="#CCCCCC"/>
+
+    <TextView
+
+        android:id="@+id/tv_marquee_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#CCCCCC"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="@string/text"
+        android:textSize="40dp"/>
+
+    <com.zhuwb.marquee.MarqueeText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:text="@string/text"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PhotoView"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Shuffling"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/IEMI"/>
+
+    <ImageView
+        android:id="@+id/main_activity_ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
