@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HorseRaceLampDemo.iml" filepath="$PROJECT_DIR$/HorseRaceLampDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Marquee/Marquee.iml" filepath="$PROJECT_DIR$/Marquee/Marquee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UIkit/UIkit.iml" filepath="$PROJECT_DIR$/UIkit/UIkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

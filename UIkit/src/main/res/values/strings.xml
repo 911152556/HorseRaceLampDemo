@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">UiKit</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+
+    <declare-styleable name="ScrollingText">
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="scrollingSpeed" format="integer"/>
+        <attr name="text" format="string"/>
+        <attr name="orientation" format="string"/>
+    </declare-styleable>
+    <!--轮播图的属性 -->
+    <declare-styleable name="AutoShufflingView">
+        <attr name="isAuto" format="boolean">
+        </attr>
+        <attr name="autoTime" format="integer"/>
+        <attr name="gravity" format="integer">
+            <enum name="left" value="-1"/>
+            <enum name="center" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr name="indicatorSelected" format="reference"/>
+        <attr name="indicatorUnSelected" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="CalendarSelectView">
+        <attr name="selectColor" format="color"/>
+        <attr name="CalendartextSize" format="dimension"/>
+        <attr name="enableColor" format="color"/>
+        <attr name="unenableColor" format="color"/>
+        <attr name="bgSelectColor" format="color"/>
+    </declare-styleable>
+</resources>
